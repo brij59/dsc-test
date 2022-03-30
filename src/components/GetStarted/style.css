@@ -1,0 +1,78 @@
+.stepper-css
+  span
+  > span.MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel {
+  padding: 6px;
+}
+
+.stepper-css
+  span
+  > span.MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel
+  svg.QontoStepIcon-completedIcon {
+  color: #fff;
+  font-size: 15px;
+  background-color: #00a651;
+  border-radius: 50%;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.stepper-css
+  span
+  > span.MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel
+  div.QontoStepIcon-circle {
+  color: #fff;
+  font-size: 15px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  padding: 2px;
+  font-weight: bold;
+  height: 1em;
+  width: 1em;
+}
+
+div.MuiStepConnector-completed,
+div.MuiStepConnector-active,
+div.Mui-disabled {
+  left: calc(-50% + 7px);
+  right: calc(50% + 7px);
+}
+
+.MuiStepConnector-completed > span.MuiStepConnector-line {
+  border-color: #00a651;
+}
+.stepper-css .MuiStepConnector-lineHorizontal {
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+span.MuiStepLabel-label.MuiStepLabel-completed {
+  color: #00a651;
+  font-weight: 600;
+}
+
+span.MuiStepLabel-label.MuiStepLabel-active,
+span.MuiStepLabel-label {
+  color: #bdbdbd;
+  font-weight: 600;
+}
+
+/* .dfdsf {
+  flex-direction: column-reverse;
+} */
+
+
+.Main_Card {
+  box-shadow: 2px 3px 10px #9e9e9e;
+  margin-bottom: 40px;
+  /* min-height: 600px; */
+}
+.Main_Card .MuiLinearProgress-colorPrimary {
+  background-color: rgb(173, 219, 159);
+}
+.Main_Card .MuiLinearProgress-barColorPrimary {
+  background-color: #00a651;
+}
+.lableMain .MuiFormLabel-root{
+  color: rgb(48, 48, 48);
+  font-size: 1.2rem;
+  font-weight: 500;
+}

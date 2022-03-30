@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="130" viewBox="0 0 126 130">
+  <g id="Group_5438" data-name="Group 5438" transform="translate(6941 -2195)">
+    <rect id="Rectangle_2079" data-name="Rectangle 2079" width="77" height="130" rx="10" transform="translate(-6941 2195)" fill="#feba26"/>
+    <rect id="Rectangle_2080" data-name="Rectangle 2080" width="67" height="120" rx="5" transform="translate(-6936 2200)" fill="#fedc92"/>
+    <path id="Path_11192" data-name="Path 11192" d="M381.353,315.319a1.65,1.65,0,0,0-1.8,1.372c-.345,1.142-.759,2.26-1.13,3.394a1.576,1.576,0,0,1-1.659,1.218q-12.7-.016-25.4,0a1.629,1.629,0,0,1-1.706-1.333c-.313-1.018-.69-2.016-.976-3.042a1.918,1.918,0,0,0-2.141-1.624C343.564,315.373,382.66,315.365,381.353,315.319Z" transform="translate(-7266.385 1883.695)" fill="#feba26"/>
+    <rect id="Rectangle_2081" data-name="Rectangle 2081" width="100" height="64" rx="4" transform="translate(-6915 2219)" fill="#e64934"/>
+    <rect id="Rectangle_2082" data-name="Rectangle 2082" width="45" height="12" rx="6" transform="translate(-6925 2299)" fill="#00a651"/>
+    <rect id="Rectangle_2083" data-name="Rectangle 2083" width="19" height="14" rx="2" transform="translate(-6905 2229)" fill="#fff"/>
+    <path id="Rectangle_2084" data-name="Rectangle 2084" d="M0,0H23a6,6,0,0,1,6,6V6a6,6,0,0,1-6,6H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(-6915 2262)" fill="#feba26"/>
+    <text id="PAY" transform="translate(-6845 2274)" fill="#fff" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.13em"><tspan x="-20" y="0">PAY</tspan></text>
+    <rect id="Rectangle_2085" data-name="Rectangle 2085" width="4" height="10" rx="2" transform="translate(-6875 2231)" fill="#fff"/>
+    <rect id="Rectangle_2086" data-name="Rectangle 2086" width="4" height="10" rx="2" transform="translate(-6867 2231)" fill="#fff"/>
+    <rect id="Rectangle_2087" data-name="Rectangle 2087" width="4" height="10" rx="2" transform="translate(-6859 2231)" fill="#fff"/>
+    <rect id="Rectangle_2088" data-name="Rectangle 2088" width="4" height="10" rx="2" transform="translate(-6851 2231)" fill="#fff"/>
+    <rect id="Rectangle_2089" data-name="Rectangle 2089" width="4" height="10" rx="2" transform="translate(-6831 2231)" fill="#fedc92"/>
+    <rect id="Rectangle_2090" data-name="Rectangle 2090" width="4" height="10" rx="2" transform="translate(-6823 2231)" fill="#fedc92"/>
+  </g>
+</svg>

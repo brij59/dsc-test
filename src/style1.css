@@ -1,0 +1,382 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy-Heavy", sans-serif;
+  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.section-top {
+  z-index: 1080;
+}
+.section-top-1 {
+  position: relative;
+
+  margin-top: 80px;
+  scroll-margin-top: 7rem;
+}
+.section-top-2 {
+  position: relative;
+  margin-top: 40px;
+  scroll-margin-top: 7rem;
+}
+/* start about main */
+
+.wave_bg {
+  background-color: #f4f6f8;
+}
+
+.aboutcon1 {
+  width: 100%;
+  height: 850px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .aboutcon1 {
+    width: 100%;
+    min-height: 800px;
+    background-position: 50%;
+    background-size: cover;
+  }
+}
+/* end about tmain */
+
+/* start ypur_plan */
+.ypur_plan {
+  min-height: 100px;
+  width: 100%;
+  transform-origin: top;
+  background-image: url("assets/images/p_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ypur_plan_2 {
+  background-color: #f5f5f5;
+}
+.ypur_plan_1 {
+  min-height: 100px;
+  width: 100%;
+  transform-origin: top;
+  background-image: url("assets/images/p_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.stline {
+  margin: 20px 0;
+  border: solid 1px #797979;
+}
+.stline_1 {
+  margin: 20px 0;
+  border: solid 1px #ffffff;
+}
+/* end ypur_plan */
+/*Joined Schools*/
+
+.testimonial {
+  border-radius: 10px;
+  background-color: #00a651;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px 30px 0px;
+  margin: 0 15px 30px 15px;
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+}
+
+.testimonial .pic {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 20px;
+}
+
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial .description {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  line-height: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.testimonial .title {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #29d18b;
+  margin: 0;
+}
+
+.testimonial .post {
+  display: inline-block;
+  font-size: 17px;
+  color: #29d18b;
+  font-style: italic;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  border: 2px solid #2a3d7d;
+  background: #fff !important;
+  border-radius: 0 !important;
+  opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+  background: #29d18b !important;
+  border-color: #29d18b;
+}
+
+.testimonial-icon {
+  content: "";
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+  background: #de9b0b;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  transform: rotate(1deg);
+  border-radius: 8px;
+  z-index: -2;
+}
+
+.testimonial-icon1 {
+  content: "";
+  display: inline-block;
+  width: 94px;
+  height: 93px;
+  background: #feba26;
+  position: absolute;
+  top: -10px;
+  right: 29px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.card_join_1 {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+/*Joined Schools*/
+
+.footer {
+  background-image: url("assets/images/svg/footer_main.svg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+}
+
+.flogo {
+  padding: 20px;
+  color: #fff;
+  margin-top: 5% !important;
+}
+
+.flogo ul li {
+  list-style-type: none !important;
+  line-height: 30px;
+}
+
+.footer-1 {
+  border-bottom: solid 0.5px #fff;
+}
+
+.driving {
+  text-align: center;
+  color: #fff;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.social-media {
+  margin: 0px 20px 0px 0px;
+  font-size: 40px;
+}
+
+.buttom-footer1 {
+  margin-left: 30px;
+}
+
+.buttom-footer {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.buttom-footer:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-link {
+  text-align: left;
+}
+
+.line1 {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .footer-right {
+    text-align: center;
+  }
+  .footer-link {
+    text-align: center;
+  }
+  .driving {
+    text-align: center;
+    color: #fff;
+    height: 20px;
+    padding-top: 10px;
+  }
+}
+
+/* / Footer / */
+
+.icon-effects-w3-1 {
+  position: absolute;
+  top: 90%;
+  right: 0%;
+}
+.icon-effects-w3-2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.icon-effects-w3-3 {
+  position: absolute;
+  top: -10%;
+  right: 0%;
+}
+.icon-effects-w3-4 {
+  position: absolute;
+  bottom: -10%;
+  left: 3%;
+}
+.icon-effects-w3-5 {
+  position: absolute;
+  top: -10%;
+  right: 0%;
+}
+
+@media (max-width: 768px) {
+  .icon-effects-w3-1 {
+    display: none;
+  }
+  .icon-effects-w3-2 {
+    display: none;
+  }
+  .icon-effects-w3-3 {
+    display: none;
+  }
+  .icon-effects-w3-4 {
+    display: none;
+  }
+  .icon-effects-w3-5 {
+    display: none;
+  }
+}
+
+.number {
+  margin-top: 10px;
+  justify-content: end;
+  display: flex;
+}
+
+.minus,
+.plus {
+  width: 40%;
+  background: #f2f2f2;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+input {
+  width: 60%;
+  /* text-align: center; */
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Navbar {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Navbar .navbar-light .navbar-nav .nav-link {
+  color: rgb(229 68 27);
+}
+
+.Navbar .navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(0 166 80);
+}
+.ram .MuiDropzonePreviewList-imageContainer {
+  display: none;
+}
+
+.ram .MuiDropzoneArea-root {
+  width: 100%;
+  border: dashed;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.ram .MuiDropzoneArea-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
